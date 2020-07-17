@@ -2,6 +2,33 @@
   font-family: "Roboto";
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.right_block{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.right_corner_image{
+  display: flex;
+}
+
+.slogan{
+  font-size: 35px;
+  justify-self: center ;
+}
+
+.acesso_conta{
+  position: display;
+  justify-self: end;
+}
+
 .logo {
   font-family: "Pacifico", cursive;
   color: #fe5b00;
@@ -13,5 +40,10 @@
 button {
   border-radius: 25px;
   background-color: #fe5b00;
-  text-emphasis: bold;
+  font-weight: bold;
+}
+
+.resolvelogo{
+  display: flex;
+  justify-content: flex-end;
 }
