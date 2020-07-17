@@ -21,6 +21,7 @@
   opacity: 90%;
   font-size: 80px;
   margin-top: 10px;
+  margin-left: 5px;
 }
 
 .slogan{
@@ -39,6 +40,8 @@ button {
   border-radius: 25px;
   background-color: #fe5b00;
   font-weight: bold;
+  opacity: 0.8;
+  border: 1px solid #fe5b00;
 }
 
 .conserta_posicionamento{
@@ -52,11 +55,11 @@ button {
 }
 
 input[type=text]{
-  width: 100%;
+  width: 500px;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid;
+  border: 1px solid #FF9671;
   border-radius: 15px;
   box-sizing: border-box;
 }
