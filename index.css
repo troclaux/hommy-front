@@ -11,8 +11,10 @@
   justify-content: flex-end;
 }
 
-.right_corner_image{
+.left_block{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo {
@@ -21,7 +23,7 @@
   opacity: 90%;
   font-size: 80px;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .slogan{
@@ -31,13 +33,10 @@
   opacity: 0.8;
 }
 
-.acesso_conta{
-  position: display;
-  justify-self: end;
-}
 
 button {
   border-radius: 25px;
+  width: 60px;
   background-color: #fe5b00;
   font-weight: bold;
   opacity: 0.8;
@@ -54,6 +53,14 @@ button {
   justify-content: center;
 }
 
+footer{
+  margin-top: 60px;
+}
+
+form{
+  margin-top: 40px;
+}
+
 input[type=text]{
   width: 500px;
   padding: 12px 20px;
@@ -63,3 +70,18 @@ input[type=text]{
   border-radius: 15px;
   box-sizing: border-box;
 }
+
+.container_separador{
+  display: flex;
+  justify-content: center;
+}
+
+.separador{
+  justify-self: center;
+  width: 200px;
+  height: 5px;
+  background-color: #FE5B00;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+
