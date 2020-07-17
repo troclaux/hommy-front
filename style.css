@@ -1,0 +1,17 @@
+* {
+  font-family: "Roboto";
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  color: #fe5b00;
+  opacity: 90%;
+  font-size: 80px;
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 25px;
+  background-color: #fe5b00;
+  text-emphasis: bold;
+}
