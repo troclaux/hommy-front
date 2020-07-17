@@ -16,12 +16,23 @@ button {
   font-weight: bold;
 }
 
-.top_right_corner_image{
-  position: absolute;
-  top: 0px;
-  right: 0px;
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_corner_image{
+  display: flex;
+  justify-content: right;
 }
 
 .slogan{
   font-size: 35px;
+  position: display;
+  justify-content: left;
+}
+
+.acesso_conta{
+  position: display;
+  justify-content: right;
 }
