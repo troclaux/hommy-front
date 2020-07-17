@@ -18,21 +18,29 @@ button {
 
 .container{
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
+}
+
+.right_block{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .right_corner_image{
   display: flex;
-  justify-content: right;
+  justify-self: right;
 }
 
 .slogan{
   font-size: 35px;
   position: display;
-  justify-content: left;
+  justify-self: center ;
 }
 
 .acesso_conta{
   position: display;
-  justify-content: right;
+  justify-self: end;
 }
