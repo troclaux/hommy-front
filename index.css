@@ -1,7 +1,3 @@
-* {
-  font-family: "Roboto";
-}
-
 .container{
   display: flex;
   flex-direction: row;
@@ -20,8 +16,10 @@
 }
 
 .slogan{
+  display: flex;
   font-size: 35px;
   justify-self: center ;
+  opacity: 0.8;
 }
 
 .acesso_conta{
@@ -43,7 +41,16 @@ button {
   font-weight: bold;
 }
 
-.resolvelogo{
+.conserta_posicionamento{
   display: flex;
   justify-content: flex-end;
+}
+
+.conserta_posicionamento_slogan{
+  display: flex;
+  justify-content: center;
+}
+
+.barra_de_busca{
+  border-radius: 10px;
 }
