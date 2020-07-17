@@ -15,6 +15,14 @@
   display: flex;
 }
 
+.logo {
+  font-family: "Pacifico", cursive;
+  color: #fe5b00;
+  opacity: 90%;
+  font-size: 80px;
+  margin-top: 10px;
+}
+
 .slogan{
   display: flex;
   font-size: 35px;
@@ -25,14 +33,6 @@
 .acesso_conta{
   position: display;
   justify-self: end;
-}
-
-.logo {
-  font-family: "Pacifico", cursive;
-  color: #fe5b00;
-  opacity: 90%;
-  font-size: 80px;
-  margin-top: 10px;
 }
 
 button {
@@ -51,6 +51,12 @@ button {
   justify-content: center;
 }
 
-.barra_de_busca{
-  border-radius: 10px;
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 15px;
+  box-sizing: border-box;
 }
