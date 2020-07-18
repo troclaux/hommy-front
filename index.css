@@ -2,19 +2,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
 }
 
 .right_block{
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 .left_block{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -24,13 +22,14 @@
   font-size: 80px;
   margin-top: 10px;
   margin-left: 10px;
+  margin-bottom: 50px;
 }
 
 .slogan{
-  display: flex;
   font-size: 35px;
   justify-self: center ;
   opacity: 0.8;
+  align-self: center;
 }
 
 
@@ -41,31 +40,25 @@ button {
   font-weight: bold;
   opacity: 0.8;
   border: 1px solid #fe5b00;
+  margin: 10px;
 }
 
-.conserta_posicionamento{
+.acesso_conta{
   display: flex;
   justify-content: flex-end;
 }
 
-.conserta_posicionamento_slogan{
-  display: flex;
-  justify-content: center;
+.barra_de_busca{
+  align-self: center;
 }
 
 footer{
   margin-top: 60px;
 }
 
-form{
-  margin-top: 40px;
-}
-
 input[type=text]{
   width: 500px;
   padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
   border: 1px solid #FF9671;
   border-radius: 15px;
   box-sizing: border-box;
