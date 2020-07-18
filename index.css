@@ -10,9 +10,11 @@
 }
 
 .left_block{
+  width: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-self: center;
 }
 
 .logo {
@@ -56,17 +58,33 @@ footer{
   margin-top: 60px;
 }
 
+form{
+  align-self: center;
+  margin: 10px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.container_barra_de_busca{
+  display: flex;
+  justify-content: center;
+}
+
+.barra_de_busca{
+  width: 500px;
+  font-size: 25px;
+  font-weight: bold;
+  opacity: 0.8;
+  justify-self: center;
+}
+
+
 input[type=text]{
   width: 500px;
   padding: 12px 20px;
   border: 1px solid #FF9671;
   border-radius: 15px;
   box-sizing: border-box;
-}
-
-.container_separador{
-  display: flex;
-  justify-content: center;
 }
 
 .separador{
@@ -76,5 +94,6 @@ input[type=text]{
   background-color: #FE5B00;
   border-radius: 15px;
   opacity: 0.8;
+  margin: 20px;
 }
 
