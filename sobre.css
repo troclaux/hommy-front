@@ -7,6 +7,7 @@ h1{
 
 p{
     width: 80vw;
+    text-align: justify;
 }
 
 a{
@@ -14,4 +15,22 @@ a{
     top:0px;
     right: 0px;
     margin: 10px;
+}
+
+@media (orientation:portrait){
+
+    
+
+    h1{
+        font-size: 10vw;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    a{
+        font-size: 1rem;
+        opacity: 0.8;
+    }
 }
