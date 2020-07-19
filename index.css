@@ -84,27 +84,8 @@ input[type=text]{
 
 @media (orientation: portrait){
 
-  .container{
-    width: 100vw;
-    justify-content: center;
-  }
-
-  body{
-    width: 100px;
-  }
-
-  .logo{
-    align-self:center;
-  }
-
   input[type=text]{
     width: 80vw;
-  }
-
-  form{
-    overflow: visible;
-    width: 80vw;
-    justify-self: center;
   }
  
   .left_block{
@@ -112,7 +93,6 @@ input[type=text]{
     top: 0px;
     left: 0px;
     width: 100vw;
-    align-items: center;
   }
 
   .right_block{
@@ -120,12 +100,7 @@ input[type=text]{
   }
 
   .logo{
-    align-self: center;
     font-size: 4rem;
-  }
-
-  .separador{
-    width: 30vw;
   }
 
 }
