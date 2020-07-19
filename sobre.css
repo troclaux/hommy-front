@@ -1,5 +1,17 @@
 h1{
-    font-size: 30vw;
+    font-size: 2rem;
     text-align: justify;
     text-justify: inter-word;
+    color: #FE5B00;
+}
+
+p{
+    width: 80vw;
+}
+
+a{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    margin: 10px;
 }

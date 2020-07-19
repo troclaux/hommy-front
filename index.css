@@ -93,14 +93,12 @@ input[type=text]{
   background-color: #FE5B00;
   border-radius: 10px;
   opacity: 0.8;
-  margin: 2vh;
+  margin: 5vh;
 }
 
 
 @media (orientation: portrait){
-
-
- 
+  
   .left_block{
     width: 100%;
     align-items: center;
