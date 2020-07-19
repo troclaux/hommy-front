@@ -7,7 +7,7 @@ h1{
     opacity: 0.8;
 }
 
-p{
+h3{
     font-size: 2rem;
     width: 80vw;
     text-align: justify;
@@ -28,7 +28,7 @@ img{
 }
 
 @media(orientation: landscape){
-    p{
+    h3{
         width: 50vw;
     }
 }
