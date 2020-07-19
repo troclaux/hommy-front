@@ -58,7 +58,7 @@ footer{
 form{
   font-size: 1rem;
   align-self: center;
-  margin: 1rem;
+  margin: 3rem;
   font-weight: bold;
   opacity: 0.8;
 }
@@ -102,5 +102,4 @@ input[type=text]{
     font-size: 4rem;
   }
 
-  
 }
