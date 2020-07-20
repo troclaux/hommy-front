@@ -26,6 +26,10 @@
   justify-self: flex-start;
 }
 
+.mobile_image{
+  display: none;
+}
+
 .slogan{
   font-size: 2rem;
   justify-self: center ;
@@ -84,6 +88,11 @@ input[type=text]{
 
 
 @media (orientation: portrait){
+
+  .mobile_image{
+    display: block;
+    width: 100vw;
+  }
 
   input[type=text]{
     width: 80vw;
