@@ -75,7 +75,7 @@ input[type=text]{
 
 
 .separador{
-  height: 2vw;
+  height: 1vh;
   background-color: #FE5B00;
   border-radius: 10px;
   opacity: 0.8;
@@ -105,10 +105,6 @@ input[type=text]{
     display: none;
   }
 
-  .logo{
-    font-size: 10rem;
-  }
-
   form{
     font-size: 3rem;
   }
@@ -120,6 +116,9 @@ input[type=text]{
     border-radius: 10rem;
   }
 
+  .separador{
+    height: 2vw;
+  }
 
   footer{
     font-size: 3vw;
