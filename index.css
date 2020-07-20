@@ -18,6 +18,7 @@
 }
 
 .logo {
+  font-size: 4rem;
   font-family: "Pacifico", cursive;
   color: #fe5b00;
   opacity: 90%;
@@ -69,6 +70,7 @@ input[type=text]{
   border: 1px solid #FF9671;
   border-radius: 1rem;
   box-sizing: border-box;
+  background-color: #FF9671;
 }
 
 
@@ -85,6 +87,11 @@ input[type=text]{
 
   input[type=text]{
     width: 80vw;
+    font-size: 3rem;
+  }
+
+  .barra_de_busca{
+    margin-bottom: 6vw;
   }
  
   .left_block{
@@ -99,7 +106,13 @@ input[type=text]{
   }
 
   .logo{
-    font-size: 4rem;
+    font-size: 10rem;
+  }
+
+  button{
+    width: 5cm;
+    height: 1.5cm;
+    font-size: 2rem;
   }
 
 }
